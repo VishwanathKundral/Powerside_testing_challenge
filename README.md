@@ -35,3 +35,9 @@ e2e - has all the cy.js test case script files
 fixtures - has json data place holders used for data driven test cases, and varibale used in test case
 PageObject - has .js script housign individual page locators and their respective actions on the webelement
 support - has cypress and e2e config files
+
+Sample Reports
+----
+<img width="950" height="326" alt="image" src="https://github.com/user-attachments/assets/232dac87-e654-43bf-a5b4-c8080645900c" />
+
+<img width="953" height="496" alt="image" src="https://github.com/user-attachments/assets/fbbab462-a47a-46ef-8364-cb1f4b0e43a2" />
