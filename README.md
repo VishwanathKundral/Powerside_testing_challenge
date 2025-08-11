@@ -28,10 +28,8 @@ screenshot of failed test cases in folder \cypress\screenshots
 
 Folder Structure
 --------
-├───e2e
-├───fixtures
-├───PageObjects
-└───support
+<img width="107" height="58" alt="image" src="https://github.com/user-attachments/assets/d4fe08b3-ceb8-4963-922c-7dee2d0f63d4" />
+
 
 e2e - has all the cy.js test case script files
 fixtures - has json data place holders used for data driven test cases, and varibale used in test case
