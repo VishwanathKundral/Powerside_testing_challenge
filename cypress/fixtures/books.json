@@ -1,0 +1,33 @@
+{
+    "searchBooks": [
+            {
+                "searchKey":"no",
+                "searchCount":"2"
+            },
+            {
+                "searchKey":"noooooo",
+                "searchCount":"0",
+                "matchString1":"No Results Found"
+            }
+        ],
+
+    "resumeRead":{
+            "read":"A Journey to the Centre of the Earth",
+            "pageCount":"25",
+            "validateProgress":"CHAPTER 7"
+        },
+
+    "bookMarkingBook":{
+        "book":"The War of the Worlds",
+        "bookMarkedChapter":"IX. THE FIGHTING BEGINS."
+    },
+    
+    "shelfBooks":{
+        "bookName":"Twenty Thousand Leagues under the Sea",
+        "shelfName":"automationShelf"
+    },
+
+    "readBook":"Man's Search for Meaning",
+    "archiveBook":"The Art of Asking (Amanda Palmer)"
+
+}

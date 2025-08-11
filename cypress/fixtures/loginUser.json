@@ -1,0 +1,48 @@
+{
+    "validUser":{
+        "userName":"Test_user1",
+        "password":"TestAccount1!"
+    },
+
+    "invalidUsers":[
+        {
+            "userName":"Test_user10001",
+            "password":"TestAccount1!"
+        },
+        {
+            "userName":"margenting",
+            "password":"!`&<Z-H{ctE1bS}~!"
+        },
+        {
+            "userName":"tricoteuse",
+            "password":"W9drTR7qKO}X]'p="
+        }
+
+    ],
+
+    "sqlInjectionUsers":[
+        {
+            "userName":"charge",
+            "password":"' or '1'='1"
+        },
+        {
+            "userName":"supply",
+            "password":"' or 1='1"
+        },
+        {
+            "userName":"speech",
+            "password":"1' or 1=1 -- -"
+        },
+        {
+            "userName":"' or '1'='1",
+            "password":"' or '1'='1"
+        },
+        {
+            "userName":"' or ' 1=1",
+            "password":"' or ' 1=1"
+        }
+    ],
+
+    "errorMessage":"Wrong Username or Password"
+    
+}
