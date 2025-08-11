@@ -26,4 +26,14 @@ Mocha reporter is used to generate the HTML report
 You can find the test results in folder cypress\reports
 screenshot of failed test cases in folder \cypress\screenshots
 
+Folder Structure
+--------
+├───e2e
+├───fixtures
+├───PageObjects
+└───support
 
+e2e - has all the cy.js test case script files
+fixtures - has json data place holders used for data driven test cases, and varibale used in test case
+PageObject - has .js script housign individual page locators and their respective actions on the webelement
+support - has cypress and e2e config files
